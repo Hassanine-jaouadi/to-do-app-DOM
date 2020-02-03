@@ -1,0 +1,62 @@
+.header {
+  background-color: #4696e4;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1,
+h3,
+p {
+  color: white;
+}
+
+.add-btn {
+  background-color: transparent;
+  padding: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+#add-btn:hover {
+  background-color: #ccc;
+}
+.input-field {
+  margin: 0;
+  margin-left: 5px;
+  border: none;
+  width: 70%;
+  padding: 5px;
+  float: left;
+  font-size: 16px;
+}
+
+/* my liste */
+.my-list {
+  list-style: none;
+  background-color: #fafafa;
+}
+li {
+  color: black;
+}
+
+ul li:hover {
+  background-color: #ddd;
+}
+
+ul li.checked ::before {
+  content: "";
+  border-color: white;
+  border-style: solid;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 15px 10px 15px;
+}
+
+.close:hover {
+  background-color: red;
+}
